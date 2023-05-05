@@ -1,0 +1,202 @@
+Overview
+
+Sprint Planning occurs once at the beginning of every sprint. Planning is dedicated time for the Product Owner to present the upcoming sprintÕs goals and for the team to establish how they as a team can meet the goals. The team can also propose modifications or additions to sprint goals. The team being facilitated by the Scrum Master (SM) focuses on constructing a sprint backlog that meets the Sprint Goals, estimates the overall size of the backlog, and as necessary negotiates with the Product Owner (PO)on the feasibility of their current goals. Sprint planning is complete once the team and PO agree that the backlog and associated goals represents a reasonable forecast and all members of the team understand the plan for the upcoming sprint.
+The Long Made Short:ÊA lot of the specifics for how Sprint Planning is executed can depend upon the team and its situation. What truly matters is that we hit these critical outcomes:
+* Fully defined, estimated, and prioritizedÊSprintÊbacklog to ensure the team can walk away from planning and start work on Product Backlog Items (PBIs) immediately, and
+* Sprint expectations are clear and set with the team
+How these outcomes come about as a team from Sprint Planning can be flexible for each team, but there is a preferred BreakFree WayTM outlined below.
+Sprint Planning, The BreakFree Way
+
+Step 0: The PO should develop Sprint Goal(s) ahead of the sprint planning session to help guide the direction of the coming sprint.if the goal(s) are immediately obvious when first entering planning.
+1. Talk about developer capacity first! 
+a. Do this before anything else so we have an accurate idea of the team's upcoming state
+b. Capacity is a negotiation tool for the team towards reasonable sprint goals
+2. Fully define, document, and agree (as a team) the User PBI's done statements/acceptance criteriaÊbefore you size it.
+a. This ensures that every single team member knows what goes into that PBI and reduces swirl.
+b. Acceptance Criteria and Definition of Done should be rigid within a sprint to avoid creating a moving target within a single PBI.
+3. Use Exponential or (modified) Fibonacci numbers for sizing.
+a. Exponential: 1, 2, 4, 8, 16, 32 
+b. Fibonacci: 1, 2, 3, 5, 8, 13, 21, 34
+c. The reason for these non-linear sequences is because it represents the tendency for larger items to compound in size. The larger your item, the more complexity, unknowns, dependencies, etc. apply to the item, which inherently makes it less accurately estimatable. 
+d. Have the team agree upon what size/number is too big for a single sprint (ex. 16, 32 needs to be broken down to at least 8)
+e. If a PBI size estimate becomes above 1 sprintÕs worth of work, consider breaking down the story to smaller parts that are accomplishable within a sprint
+f. Sizing should be relative to each individual Scrum team! A universal pointing system for all teams explicitly does not make sense.
+BreakFree recommends dedicated refinement sessions (separate from another meeting or ceremony) to assist in smoother transition from sprint completion to sprint planning. Because the official scrum framework doesnÕt define sprint refinement there may be client resistance.
+Function Owner:
+Product Owner
+Function Inputs
+Function Outputs
+* PO proposed backlog item objectives
+* Agile management tool
+* Team capacity/velocity
+* Latest product increment
+* Fully defined, estimated, and prioritized sprint backlog
+* Understanding of expectations for following sprint
+* Sprint Planning report to be sent to stakeholders
+Caveat regarding the timings of these activities:ÊExactly when you do these activities will vary by team, backlog, product, PO, situation, etc. The main point here is that 1) we hit these activities and 2) we're performing these activities in the most effective way to reach our desired outcomes from Sprint Planning.Ê
+Ê
+Activities
+Activity Frequency
+Scrum Master has team agree to time of meeting, sets calendar invite, determines location, and sets up location including remote conference configurations.
+Done every sprint to plan for sprint planning meeting
+PO develops their Sprint Goals and associated acceptance criteria for the upcoming sprint and if possible prioritizes and grooms the backlog to be in alignment with the proposed goals.
+Done before every sprint planning meeting
+Team members report on any possible capacity limitations for the upcoming sprint. 
+Done during every sprint planning meeting
+PO presents the goals and the team prioritizes technical backlog items that are required to meet the proposed goals, creating a sprint backlog. Team members can also propose additional goals or modifications to goal scope.
+Done during every sprint planning meeting
+The team builds a detailed task list for each backlog item establishing how they will achieve the Sprint Goals and complete the backlog items.
+Done during every sprint planning meeting
+The team agrees on what "Done" means for each backlog item. If this isn't documented yet, then you'll need to write it down, preferably right there in the backlog item within your project management software (TFS, Jira, Trello, etc.). Some teams will refer to this idea as "acceptance criteria." It doesn't matter what you call it, just so long as everybody agrees. This must be completed before the team estimates any work.
+Done during every sprint planning meeting
+The team estimates, utilizing story points, the relative size of the sprint backlog items. Each backlog item is reviewed in detail and the team utilizes planning poker to assign an estimate.
+Done during every sprint planning meeting
+The team then determines if the sprint backlog and goals represent a reasonable forecast based on previous metrics and their current understanding of the relative amount of work. If necessary the team and PO negotiate goal and sprint scope until the team is confident in their forecast.
+Done during every sprint planning meeting
+PO sends planning report to stakeholders to establish stakeholder expectation of the upcoming sprint.
+Done during every sprint planning meeting
+
+Predecessor Function(s)
+Successor Function(s)
+* Sprint Retrospective
+* Team Velocity
+* Team Capacity
+* Creating and Maintaining a Definition of Done
+* Daily Standup
+Techniques
+
+* Keep Sizing Brief.
+o If you spend more than 2 minutes on sizing an item, you're headed down the wrong path.
+o Intuition on size is more powerful than you'd think!
+* Discuss Low/High Outliers during Sizing.
+o Got all 8s except for one 20 and one 3?
+* Let the 3 and the 20 explain why they thought that.
+* The intention is not to put those people on trial!
+* The intention is to tease out details and insight or to give strong opinions a chance to be heard.
+o The result of discussing these outliers could reveal valuable information that changes the overall score.
+* Size once more (if valuable) and then agree on a number.
+* Don't size over and over! Resize one time at most.
+Pitfalls
+
+* Heavy Backlog Refinement during Planning/No Refinement Beforehand (in as much as the team can't handle that)
+o Coming into a Planning session with no PBI refined at all is potentially a bad time.
+o Most likely, the team will spend all of the Sprint Planning time doing backlog refinement and no actual Sprint Planning!
+o To avoid this, make sure you do necessary backlog refinementÊbefore the Sprint Planning meeting.
+o All of this is under the caveat that the team might actually power right through refinement just fine during Planning.
+* Take all of this with a grain of salt.
+* Planning Poker PitfallsÊ
+o Ensure that the ÒbarometerÓ for size is consistent and understood across the whole dev team.Ê
+* Example issue if we donÕt have this: Team Member A thinks that 3 points is trivial while Team Member B thinks that 3 points is at least a full dayÕs work.Ê
+o DonÕt sweat it if thereÕs no consensus!Ê
+* Approach it,ÊtryÊto achieve it; donÕt spend 15 minutes grilling the group to get it. Determine the size and move on.Ê
+* The value in doing group estimations comes from understanding, discussing, and aggregating individual "gut feelings" on size; not getting complete and total consensus on the first throw.
+o AnchoringÊ
+* Everyone's answer either comes all at once or is anonymous and revealed as a group.
+* If an answer gets thrown out there before others have finalized their answer, it can anchor sizing.
+o Going One at a Time During Sizing
+* This could result in anchoring or social pressure.
+* All answers should be revealed en masse.
+* Overall lack of consistency or understanding for all team membersÊ
+o All nuances, practices, etc. should be well understood byÊeach and everyÊteam member and applied consistently. 
+o ItÕs okay if someone doesnÕt know, but make sure we speak up if we arenÕt 100% clear on something.Ê
+Definition of Done
+
+The Definition of Done (DoD) is agreement on the team for what tasks need to happen or states met in order to call a PBI "Done". This is (effectively) the master list of "Done" statements that the team will pick from when they are looking to decide on what "Done" means for PBI that they will complete in the future.
+You will create a Definition of Done with the team before your first Sprint Planning meeting. The PO is responsible for getting agreement on the DoD and ensuring that the DoD is suitable for the product and that the DoD is actually followed. The main thing in regards to DoD is that it's:
+* Agreed upon and followed by the team
+* Actually provides value to the team and the customer
+DoD vs. Acceptance Criteria
+
+Although this function is focused on the DoD, it is worth mentioning Acceptance Criteria and how that harmonizes with the DoD.
+TheÊDoD is universal in scope. These are tasks or states that need to be met (where applicable) forÊany PBIs coming out of the team's backlog. The DoD doesÊnot address PBI-specific requirements, such as the color of a web page or the functionality of a specific method or the number of servers deployed in an ARM template. In other words, the DoD is the baseline contract that the team agrees to for considering PBIs "Done" without addressing the specific functional requirements of individual PBIs.
+Acceptance Criteria are specific to a PBI. Acceptance criteria aims to describe theÊfunctional requirementsÊ(and any other PBI-specific requirements) of that backlog item. In other words, Acceptance Criteria are the specific criteria that make the work to be done for that specific PBI clear to the team.
+Bottom Line:ÊDoD is a universal list to pick from for each PBI; Acceptance Criteria are PBI-specific.
+Example Definitions of Done
+Good
+* Code Review is completed
+* The Code is in the appropriate repo
+* The Team Wiki has been updated with the relevant information, including architecture diagrams
+* Code/artifacts runs with no errors
+* Acceptance Criteria for the PBI have been met
+Ê
+Bad (too general)
+* Work is done
+* Code works good
+o Even if this one was listed as Òcode works wellÓ itÕd still be wrong!
+Ê
+Bad (too specific; consider making these Acceptance Criteria instead)
+* Where applicable, web pages favor using p elements over div elements
+* All divs are assigned a class, with classes being assigned in alphabetical order
+* Documentation has been spell checked and assessed for MLA format and reviewed by 75% of the team
+* All Infrastructure as Code (IaC) scripts have been linted and manually reviewed for idempotency and proper formatting
+* All functions written in PowerShell have gone through Big O analysis and the Big O for each and every function in the script has been documented via code comments directly above each method
+* Bash scripts are named after Hyperion characters and at least 3 team membersÊ
+* All Java code uses enhanced for loops only and 2 other team members verify that enhanced for loops only are being used
+* C# code has a copyright notification on each and every class
+* Git commit messages include the date each and every time
+* John gets the final stamp of approval before moving to Done
+Don't Make TheseÊMistakes
+
+When coming up with the DoD and working with the DoD sprint after sprint, make sure that the team doesÊnot begin to ignore or "fudge" the DoD. The DoD is a contract between the team and it should be observed for every PBI the team completes. The team has the power to change the DoD if they want, but the DoD should always be respected when it's agreed upon.
+The other mistake to watch out for is a weak DoD. Apply some common sense when agreeing upon the DoD. For example, all tasks associated with a PBI are actually complete. It doesn't make any sense to say PBIs are "Done" from a DoD standpoint when in reality, they are far fromÊactually being done!
+The PO is ultimately responsible for the DoD and its use. Poor definitions of done or poorly following the DoD will ultimately fall upon the POs shoulders, so ensure that the DoD reflects the product and the team.
+Ê
+Ê
+Function Owner:
+Product Owner
+Function Inputs
+Function Outputs
+* Anticipated work identified in the Statement of work
+* Anticipated level of scrum maturity of client team members
+* Physical print-out of definition of done
+* Establishment of the aspired definition of done and a plan for getting there
+* Updates to the definition of done after adhoc or pre-scheduled reviews
+
+Activities
+Activity Frequency
+DoD initial creation exercise should be done during team formation activities before your first planning meeting and it is facilitated by the PO or SM
+This is done at the beginning of the team creation
+During eachÊSprint Planning meeting, beforeÊthe team applies story point estimates, they should discuss what "Done" actually means for each backlog item that they are about to commit to. They will look at the larger team DoD list and decide which done statements to pull across for each pbi. These pbi specific "Done" statements should be documented on the issue (along with the acceptance criteria) within their work management tool. The team agrees that this task will not be considered complete until all of these "Done" statements have been completed. It's the PO's responsibility to make sure this happens.
+During Sprint Planning
+During eachÊSprint Retrospective meeting, the team should be asking themselves "Did we actually complete all of what 'Done' meant for each pbi in the prior sprint?". It is ultimately the PO's responsibility to make sure this happens.
+Before or DuringÊSprint Retrospective
+DoD review and maturation should be facilitated by the PO and the team should agree to any changes
+This is done throughout the engagement
+A BF team member should be printing out and displaying a most recent version of the DoD
+Done throughout the project engagement whenever a change is implemented to the definition of done
+Predecessor Function(s)
+Successor Function(s)
+* Pre-Team Formation Expectation Setting
+* Team Formation & Kickoff Workshop
+* Team Wiki
+* Sprint Retrospective
+o This is a good forum for discussing the DoD
+Techniques
+
+* Print the DoD in Big Print and Post by the Board
+o Any time someone moves a sticky, they should be able to see the DoD at a glance
+Pitfalls
+
+The below identifies a pitfall followed by subpoints on why they are considered pitfalls:
+* Confusing the DoD with Acceptance Criteria
+o The DoD is aÊuniversal definition that applies toÊallÊPBIs
+* The team should have identified & created multiple DoDÕs before even looking at PBIs to get a sense of what kinds of situations / work to be completed
+* Per each individual PBI, DoDs are reviewed to see which are applicable and then applied so that everyone knows when the work is truly complete
+* While each DoD should be considered ÒuniversalÓ, it will not and cannot apply to every PBI
+o Acceptance Criteria areÊspecific to an individual PBI
+* Acceptance criteria describes the work to be done in a clear way to the team
+* The acceptance criteria describes how to approach the PBI; the DoD describes when the developer can call their work complete
+* Treating the DoD as Static
+o Your DoD should reflect the team and its goals
+* The team can evolve
+* Business needs can change
+o Make sure your DoD accurately grows with & reflects the team and its environment
+* Missing DoD for the Sake of Finishing PBIs
+o Never, ever skip the DoD! If that means that PBIs stay in the "In Progress" column at Sprint Review, then so be it
+o Completeness over speed! Doing things right now will always mean youÕll have to do it right later.
+o If there are chronic sticking points in the DoD that are slowing down the team, discuss your DoDÊas a team!
+* The team has the power and flexibility to adjust, but doÊnot undermine the integrity of Done because it's expedient
+* Making the DoD Needlessly Restrictive
+o Remember that the DoD should provide value as a contract amongst the team
+o Following arbitrary definitions for the sake of following arbitrary definitions is not valuable to the team!
+
