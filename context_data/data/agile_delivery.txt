@@ -1,0 +1,11 @@
+Description
+
+Agile work managementÊis a series of tools, processes, and techniques for managing prioritization, delivery, and realization of value Ñ especially for situations that have constant states of change and high levels of complexity.Ê
+While understanding our clients' current processes, theÊAgile Delivery FrameworkÊfocuses on how to pragmatically operationalize Agile to meet real-world challenges. We avoid dogmatic and one-size-fits-all Agile solutions. Instead, weÊoperationalize Agile delivery modelsÊfor our clients that work for them and give value as quickly and effectively as possible. Scrum, LeSS, SAFe Ñ you name it, we know it, and can utilize an optimal combination to driveÊeffective execution.Ê
+The BreakFree Way
+
+BreakFree has developed the Agile Delivery Framework to serve a two-fold purpose: first, to govern how we plan and execute during client engagements, and second, to institute highly desirable Agile capabilities which our clients find effective. It's simple: We lead by example! We continue to merge proven industry tools and techniques and unpaved, experimental concepts into a meaningful approach on every client engagement. Not every engagement will be exactly the same as the one before, so each time we will be working on a slightly different approach Ñthat's what makes us BreakFree. As we continue to grow and build our BreakFree way, we not only initiate the type of change our clients and this industry needs, but we are there to lift and shift people and processes toward a state of Agile governance that is just right for the clients we serve. We start with and build on a strong foundation based on the fundamentals of the Scrum framework.
+Where to Begin?Ê
+
+Everyone in the company should start withÊManaging Development Work During Engagements. This section contains the BreakFree Way as it relates to us organizing, managing, and delivering work in an Agile way.Ê
+
